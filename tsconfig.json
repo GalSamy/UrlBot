@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "allowJs": true,
+    "noImplicitAny": true,
+    "resolveJsonModule" : true,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  }
+}
